@@ -298,7 +298,7 @@ with st.sidebar:
     st.markdown("---")
     page = st.radio("", ["🏠  Home", "📋  Activity", "🛡  Injury Risk", "⚠  Incidents"])
     st.markdown("---")
-    st.markdown('<p style="font-size:10px;color:#333;">SportSense v0.1 · Built by Oisin</p>', unsafe_allow_html=True)
+    st.markdown('<p style="font-size:10px;color:#333;">SportSense v0.3 · Built by Oisin Whelan</p>', unsafe_allow_html=True)
 
 profile = sport_profiles[sport]
 score   = sense_score(latest)
