@@ -1,1 +1,0 @@
-print("SportSense is live")
